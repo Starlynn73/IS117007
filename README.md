@@ -1,8 +1,10 @@
-# IS117 Brand Studio
+# On the Go — IS117 Brand Studio
+
+**Current status:** On the Go storefront and live style guide implemented on `codex/brand-001`; automated checks pass. Learner browser observations and learning-record review are complete; PR review and keeping/merging BRAND-001 remain pending. Local preview only; no deployment verified.
 
 **The same white T-shirt can carry very different meanings.** Develop a brand for it with an AI collaborator, then make those decisions visible in a professional website and a live style guide.
 
-This template starts with a working, deliberately neutral storefront. Your audience, name, promise, logo, voice, and visual direction are **not chosen yet**. You make the decisions; the agent helps you explore, build, check, and revise them.
+The storefront now expresses On the Go: an approachable white-tee concept for college students, with outfit ideas, a temporary saved-look checklist and demo bag. Its live style guide shares the logo, tokens and assets. Original hero explorations remain under `public/explorations/`. Images are AI-generated styling inspiration; product details and the demo price are not verified commercial offers.
 
 **A short record, visible to you:** your AI coach updates [LEARNING.md](LEARNING.md) with brief task-related explanations, observations and help received. It is AI-drafted, not a full transcript, and may be public with your repository. Review it and correct or remove excerpts before they are committed or pushed. Your instructor uses it alongside the project with this [simple three-part rubric](docs/assessment.md); the AI does not assign your grade.
 
