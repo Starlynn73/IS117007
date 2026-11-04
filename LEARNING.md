@@ -1,24 +1,31 @@
 # Conversation evidence
 
-AI-drafted task evidence, not a transcript or grade. This file may be public: review, correct or remove excerpts before commit/push. Use short actual quotes or labeled paraphrases and disclose help. Approval alone is not an explanation; leave missing evidence pending.
+AI-drafted task evidence, not a transcript or grade. This file may be public: review, correct or remove excerpts before commit/push. Approval alone is not an explanation; missing evidence stays pending.
 
-- **Feature:** BRAND-001 — pending
-- **Date:** Pending
-- **Conversation context available:** Not recorded yet
-- **Review status:** Not reviewed; no learner evidence recorded
+- **Feature:** BRAND-001 — checks and learner observations recorded; PR #2 open; merge pending
+- **Date:** 2026-11-03
+- **Conversation context available:** This chat from setup through test interpretation and desktop, narrow-window and keyboard-focus observations; no earlier chats used.
+- **Review status:** Learner reviewed the linked draft and shown summary on 2026-11-03: "no its good". Student excerpts below are unchanged since that approval; technical check/workflow status updated afterward.
 
 ## Student contributions
 
-| Checkpoint                                   | Actual student words or labeled paraphrase | Assistance supplied | Evidence or gap |
-| -------------------------------------------- | ------------------------------------------ | ------------------- | --------------- |
-| Choice and reason                            | Pending                                    | Pending             | Pending         |
-| Prediction or visitor benefit                | Pending                                    | Pending             | Pending         |
-| Interpretation of one actual test            | Pending                                    | Pending             | Pending         |
-| Browser observation and keep/revise decision | Pending                                    | Pending             | Pending         |
+| Checkpoint                                   | Actual student words or labeled paraphrase                                                                                                                                                                                                   | Assistance supplied                                                                                                                               | Evidence or gap                                                                                                                                                                                                                                                                         |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Choice and reason                            | Chose college students meeting friends; concern: a tee "can be basic and does nothing to elevate the look". Kept B because fonts elevate the site; rejected cartoony graphics for cool, effortless chic.                                     | AI asked about audience and concern, supplied researched hero previews, then asked about a visible detail.                                        | Concrete concern and visual critique; effect of typography on audience remains partly implicit.                                                                                                                                                                                         |
+| Prediction or visitor benefit                | After a hint, identified styling self-doubt and already owning plain clothes; proposed sneakers and aesthetics so people "can copy that or take inspo from it". Later added accessories and men/women across aesthetics.                     | Learner requested aid; AI first gave a tee/jeans/accessory example. AI later proposed free outfit ideas and optional saved-look checklist.        | Assisted explanation with learner-added details. Free ideas selected; checklist approved with "sure". No measured audience response.                                                                                                                                                    |
+| Interpretation of one actual test            | "if it add the tshirt to the demo bag" — identified accidental bag addition when saving an outfit.                                                                                                                                           | AI showed the real check: save streetwear with no size; checklist opens and bag stays 0; passed. Asked what bug it would catch before explaining. | Learner identified the unwanted state change without an extra hint.                                                                                                                                                                                                                     |
+| Browser observation and keep/revise decision | Paraphrase: the model pose looks like a college student; colors contrast nicely; simple chain is a nice touch; outfit feels casual and everyday. Previously tried Large in bag, revised cartoon imagery, accepted Black male image and logo. | AI asked for first impression; vague approval was followed by a neutral request for a visible detail, without supplying details.                  | Concrete desktop impression supplied. Narrow-window paraphrase: elements appeared the same size but rearranged to accommodate the window. After an initial "yes", learner described "a black outline around find your outfit" when reached with Tab. Final keep/merge decision pending. |
+
+## Approvals and provenance
+
+Learner proposed **On the Go** after rejecting AI names and explicitly kept it. AI supplied a possible naming rationale on request; own naming reason unavailable. Learner approved the AI promise, Everyperson from two described characters, friendly/relaxed/encouraging voice, and proposed secondary class-day audience. These record choices and approvals rather than independent theoretical explanations. See [SPEC.md](SPEC.md).
 
 ## AI work and evidence links
 
-- **Work performed by AI:** Pending
-- **SPEC, issue/PR, actual checks and artifacts:** Pending
+- **Setup maintenance:** Dependencies, Chromium, prescribed formatting and Windows lint quoting; initial baseline passed 7 server and 10 browser tests. Separate from brand decisions.
+- **Brand work:** [A](public/explorations/modern.html), [B](public/explorations/postmodern.html), [photographic revision](public/explorations/postmodern-photo.html), [logo](public/assets/on-the-go-wordmark.svg), [storefront](public/index.html), [live guide](public/styleguide.html), [shared styles](public/styles.css). Actual museum images inspected. Generated the accepted Black male image plus an AI-proposed Black female clean-casual image, not separately reviewed yet. Images are labeled outfit inspiration, not verified product photography.
+- **Behavior/checks:** [outfits.js](public/outfits.js) and [browser journey](tests/browser/outfits.spec.js) cover voluntary plans, removal, keyboard activation, bag independence and refresh reset. [Shop behavior](public/shop.js) preserved. [Live-reload test](tests/browser/development.spec.js) now exercises the displayed logo SVG rather than the removed starter image. `npm run check` passed formatting/lint, 7 server tests and 11 browser tests.
+- **AI visual review:** Completed storefront, guide and studio overview visual inspection at desktop/390px after browser recovery; compared logo, typography, action, color roles, voice and imagery. [Renders](docs/explorations/) saved. Automated integrity/axe/narrow checks passed for all three main pages. This is not full accessibility proof or learner review.
+- **Workflow:** [Issue #1](https://github.com/Starlynn73/IS117007/issues/1), [PR #2](https://github.com/Starlynn73/IS117007/pull/2), branch `codex/brand-001`, implementation commit `eac0d78`. Learner pushed over SSH from their terminal; branch verified on GitHub. PR created with scope, evidence and limits. GitHub checks started; local full check already passed. No merge or deployment yet.
 
-**Next step:** Pending
+**Next step:** Push the documentation link update, review PR #2 and decide whether to keep/merge. Publishing remains a separate choice. Student excerpts are unchanged since accuracy approval.

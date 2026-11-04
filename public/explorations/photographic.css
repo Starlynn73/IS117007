@@ -1,0 +1,65 @@
+.exploration.photographic .hero {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  gap: 40px;
+}
+
+.exploration.photographic .art {
+  padding: 10px 22px 28px;
+}
+
+.exploration.photographic .art::before {
+  inset: 24px 8px 12px 36px;
+  width: auto;
+  aspect-ratio: auto;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  transform: rotate(2deg);
+  background: transparent;
+  box-shadow: none;
+}
+
+.exploration.photographic .shirt {
+  display: block;
+  width: 100%;
+  height: 570px;
+  max-height: none;
+  object-fit: contain;
+  transform: none;
+}
+
+.exploration.photographic .art-label {
+  bottom: 10px;
+  left: 0;
+  padding: 8px 14px;
+  transform: rotate(-2deg);
+}
+
+.exploration.photographic .outfit img {
+  height: 300px;
+  object-fit: cover;
+  object-position: center bottom;
+  border-radius: 0;
+  border: 0;
+}
+
+@media (width <= 650px) {
+  .exploration.photographic .hero {
+    padding-top: 0;
+    gap: 20px;
+  }
+
+  .exploration.photographic .art {
+    padding: 0 16px 24px;
+    min-height: 0;
+  }
+
+  .exploration.photographic .shirt {
+    height: auto;
+    max-height: 580px;
+  }
+
+  .exploration.photographic .outfit img {
+    height: 230px;
+  }
+}

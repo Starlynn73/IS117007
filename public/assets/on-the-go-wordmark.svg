@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 72" role="img" aria-labelledby="title">
+  <title id="title">On the Go</title>
+  <g fill="#172622">
+    <text x="6" y="51" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="48" letter-spacing="-1.5">On the Go</text>
+    <path d="M268 49h39l-9 9 4 4 20-20-20-20-4 4 9 9h-39z" />
+  </g>
+</svg>
