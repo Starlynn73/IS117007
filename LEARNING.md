@@ -2,7 +2,7 @@
 
 AI-drafted task evidence, not a transcript or grade. This file may be public: review, correct or remove excerpts before commit/push. Approval alone is not an explanation; missing evidence stays pending.
 
-- **Feature:** BRAND-001 — implementation checked; learner checks pending
+- **Feature:** BRAND-001 — checks and learner observations recorded; PR #2 open; merge pending
 - **Date:** 2026-11-03
 - **Conversation context available:** This chat from setup through test interpretation and desktop, narrow-window and keyboard-focus observations; no earlier chats used.
 - **Review status:** Learner reviewed the linked draft and shown summary on 2026-11-03: "no its good". Student excerpts below are unchanged since that approval; technical check/workflow status updated afterward.
@@ -26,6 +26,6 @@ Learner proposed **On the Go** after rejecting AI names and explicitly kept it. 
 - **Brand work:** [A](public/explorations/modern.html), [B](public/explorations/postmodern.html), [photographic revision](public/explorations/postmodern-photo.html), [logo](public/assets/on-the-go-wordmark.svg), [storefront](public/index.html), [live guide](public/styleguide.html), [shared styles](public/styles.css). Actual museum images inspected. Generated the accepted Black male image plus an AI-proposed Black female clean-casual image, not separately reviewed yet. Images are labeled outfit inspiration, not verified product photography.
 - **Behavior/checks:** [outfits.js](public/outfits.js) and [browser journey](tests/browser/outfits.spec.js) cover voluntary plans, removal, keyboard activation, bag independence and refresh reset. [Shop behavior](public/shop.js) preserved. [Live-reload test](tests/browser/development.spec.js) now exercises the displayed logo SVG rather than the removed starter image. `npm run check` passed formatting/lint, 7 server tests and 11 browser tests.
 - **AI visual review:** Completed storefront, guide and studio overview visual inspection at desktop/390px after browser recovery; compared logo, typography, action, color roles, voice and imagery. [Renders](docs/explorations/) saved. Automated integrity/axe/narrow checks passed for all three main pages. This is not full accessibility proof or learner review.
-- **Workflow:** [Issue #1](https://github.com/Starlynn73/IS117007/issues/1), branch `codex/brand-001`. Implementation plan submitted but timeline failed to display it, so saved state unverified. No PR, push, merge or deployment yet. Preparing a local feature commit after record review. GitHub accepts the SSH key but authentication cannot finish without unlocking it in an agent; no key contents or passphrase collected.
+- **Workflow:** [Issue #1](https://github.com/Starlynn73/IS117007/issues/1), [PR #2](https://github.com/Starlynn73/IS117007/pull/2), branch `codex/brand-001`, implementation commit `eac0d78`. Learner pushed over SSH from their terminal; branch verified on GitHub. PR created with scope, evidence and limits. GitHub checks started; local full check already passed. No merge or deployment yet.
 
-**Next step:** Unlock the existing SSH key locally, push the feature branch, review the PR and decide whether to keep/merge. Publishing remains a separate choice.
+**Next step:** Push the documentation link update, review PR #2 and decide whether to keep/merge. Publishing remains a separate choice. Student excerpts are unchanged since accuracy approval.

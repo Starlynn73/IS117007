@@ -1,6 +1,6 @@
 # On the Go — IS117 Brand Studio
 
-**Current status:** On the Go storefront and live style guide implemented on `codex/brand-001`; automated checks pass. Learner browser observations and learning-record review are complete; PR review and keeping/merging BRAND-001 remain pending. Local preview only; no deployment verified.
+**Current status:** On the Go storefront and live style guide implemented on `codex/brand-001`; automated checks pass. Learner browser observations and learning-record review are complete; [PR #2](https://github.com/Starlynn73/IS117007/pull/2) is open; keeping/merging BRAND-001 remains pending. Local preview only; no deployment verified.
 
 **The same white T-shirt can carry very different meanings.** Develop a brand for it with an AI collaborator, then make those decisions visible in a professional website and a live style guide.
 
