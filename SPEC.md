@@ -10,7 +10,7 @@ This is the durable agreement between the learner and agent. Keep it concise and
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
 - Status: Kept after learner merge approval; verified merge commit 0d6ab0fafa9a2343af5ab16e67ad85692ff76a8b.
 - Tracking issue: [BRAND-001 #1](https://github.com/Starlynn73/IS117007/issues/1). Pull request: [#2](https://github.com/Starlynn73/IS117007/pull/2).
-- Next small action: Sync the local main branch and kept-status documentation. No optional next feature chosen.
+- Next small decision: Optionally choose one small improvement and the visitor need it serves; none selected.
 
 ## Product boundary
 
@@ -98,3 +98,5 @@ No follow-up is selected. `BRAND-001` is kept. One optional next cycle could be:
 Imagery clarification: learner wants a Black model, male or female; gender-neutral describes the clothing direction, not a requirement for the model. AI proposed a Black male adult in the revised photographic preview (on-the-go-streetwear-v2.png). Image accepted by learner ("perfect").
 
 Learner checks: correctly identified accidental T-shirt addition as the bug caught by saving a look while expecting bag count 0. Desktop impression: model pose feels like a college student, color contrast works, simple chain adds a nice touch, and outfit feels casual/everyday. Narrow-window observation: learner reported elements appeared the same size but rearranged to accommodate the window. Keyboard observation after a concrete follow-up: learner saw a black outline around Find your outfit when reached with Tab.
+
+Post-merge maintenance: .gitattributes preserves LF text line endings across Windows checkouts. npm run check rerun after local main synchronization: formatting/lint, 7 server tests and 11 browser tests passed.
