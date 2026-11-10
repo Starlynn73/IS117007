@@ -4,7 +4,7 @@
 
 **Repository:** [Starlynn73/IS117007](https://github.com/Starlynn73/IS117007)
 
-**Published site:** Not verified; the existing storefront is a local demo.
+**Research website:** [Open the HTML notebook](../public/research/index.html). Public deployment is checked separately; this repository link opens source until published.
 
 **Research feedback issue:** [RESEARCH-001 #3](https://github.com/Starlynn73/IS117007/issues/3). [Brand Studio issue #1](https://github.com/Starlynn73/IS117007/issues/1) records the earlier feature, not feedback on this Research submission.
 
@@ -16,11 +16,11 @@
 
 All three sell plain white tees. They provide comparisons for practical essentials, accessible fashion and information-led wardrobe basics.
 
-| Source | Observation | What it suggests for On the Go |
-| --- | --- | --- |
-| [Uniqlo: white Crew Neck T-Shirt](https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=00) | Size guidance, styling examples, reviews and structured product details; a guest checkout route was available. | Make choosing straightforward. Since styling examples already exist, focus ours on a specific college-student situation. |
-| [H&M: white Regular Fit T-shirt](https://www2.hm.com/en_us/productpage.0685816001.html) | A model shows the tee as part of an outfit. The sampled tee was $7.99; the bag added $6.99 estimated shipping before final tax. | Help visitors picture a complete look and explain costs clearly. Product price alone is an incomplete comparison. |
-| [Everlane: white Slim Crew in Essential Cotton](https://www.everlane.com/products/womens-organic-cotton-slim-crew-tee-white) | Model and garment photos accompany fit, material and production information. The bag presented a paid package-protection option and a route without it. | Pair styling inspiration with useful information and clear control over additional costs. |
+| Source                                                                                                                       | Observation                                                                                                                                             | What it suggests for On the Go                                                                                           |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [Uniqlo: white Crew Neck T-Shirt](https://www.uniqlo.com/us/en/products/E422992-000/00?colorDisplayCode=00)                  | Size guidance, styling examples, reviews and structured product details; a guest checkout route was available.                                          | Make choosing straightforward. Since styling examples already exist, focus ours on a specific college-student situation. |
+| [H&M: white Regular Fit T-shirt](https://www2.hm.com/en_us/productpage.0685816001.html)                                      | A model shows the tee as part of an outfit. The sampled tee was $7.99; the bag added $6.99 estimated shipping before final tax.                         | Help visitors picture a complete look and explain costs clearly. Product price alone is an incomplete comparison.        |
+| [Everlane: white Slim Crew in Essential Cotton](https://www.everlane.com/products/womens-organic-cotton-slim-crew-tee-white) | Model and garment photos accompany fit, material and production information. The bag presented a paid package-protection option and a route without it. | Pair styling inspiration with useful information and clear control over additional costs.                                |
 
 ### Look, brand character and honest persuasion
 
@@ -32,21 +32,21 @@ These are interpretations of sampled pages, not official brand archetypes or evi
 
 ### Two positions considered
 
-| Position | Proposed value | Tradeoff |
-| --- | --- | --- |
-| A — Affordable everyday essential | A useful basic at a suitable total price. | Competes with established basics retailers; On the Go has no verified price advantage. |
-| B — Styling help and confidence | A white tee shown in ready-to-copy outfits for college students. | Needs achievable, useful styling; outfit photography alone may not distinguish it. |
+| Position                          | Proposed value                                                   | Tradeoff                                                                               |
+| --------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| A — Affordable everyday essential | A useful basic at a suitable total price.                        | Competes with established basics retailers; On the Go has no verified price advantage. |
+| B — Styling help and confidence   | A white tee shown in ready-to-copy outfits for college students. | Needs achievable, useful styling; outfit photography alone may not distinguish it.     |
 
 **Chosen position: B.** The learner chose “a white tee styling help for confident college students.”
 
 ### Two short persona hypotheses
 
-| | Primary: meeting friends | Secondary: going to class |
-| --- | --- | --- |
-| Situation | A college student getting ready for a casual hangout. | A college student getting dressed for class. |
-| Goal | Put together a look that feels cool and confident. | Find an easy everyday outfit with little effort. |
-| Concern | A plain tee feels basic; how should it be styled? | Outfit inspiration needs to be quick and practical. |
-| Information needed | Complete looks, useful pairings and clear tee information. | Simple combinations and clear product information. |
+|                       | Primary: meeting friends                                           | Secondary: going to class                                            |
+| --------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| Situation             | A college student getting ready for a casual hangout.              | A college student getting dressed for class.                         |
+| Goal                  | Put together a look that feels cool and confident.                 | Find an easy everyday outfit with little effort.                     |
+| Concern               | A plain tee feels basic; how should it be styled?                  | Outfit inspiration needs to be quick and practical.                  |
+| Information needed    | Complete looks, useful pairings and clear tee information.         | Simple combinations and clear product information.                   |
 | Evidence / assumption | Learner-selected situation; the styling need remains a hypothesis. | AI-drafted contrast reused from Brand Studio; not customer research. |
 
 ### Audience choice and reason
@@ -71,13 +71,15 @@ Use supported facts and clearly labeled demo information; do not invent reviews,
 
 ### Evidence and assistance
 
-- [Illustrated competitor comparison: 12 screenshots, shopping journeys and source links](competitor-research/white-tee-competitive-landscape.pdf).
+- [Browsable research notebook](../public/research/index.html): [landscape](../public/research/landscape.html), [UNIQLO](../public/research/uniqlo.html), [H&M](../public/research/hm.html), [Everlane](../public/research/everlane.html), [audience and direction](../public/research/direction.html), [proposed next stories/checks](../public/research/next-steps.html), and [sources/limits](../public/research/sources.html). All twelve original screen captures are embedded and can be opened at full size. The PDF has been replaced by HTML; previous evidence is recoverable from Git history.
 - [Brand Studio decisions](../SPEC.md), [earlier reviewed learning record](../LEARNING.md), [kept feature PR #2](https://github.com/Starlynn73/IS117007/pull/2).
 - Existing implementation: [storefront](../public/index.html), [live style guide](../public/styleguide.html), [two original visual routes](../public/explorations/).
 - AI assisted with site inspection, screenshots, framework interpretation and drafting. The learner approved competitors, chose the styling position and primary situation, and explained the ready-to-copy benefit. The learner explicitly confirmed the accuracy of the “Audience choice and reason” section before publication.
 - Site inspection reached checkout entry without entering contact or payment information or placing orders. It does not establish final delivered prices, fulfillment or return performance.
 
 Framework references: [Cialdini](https://www.influenceatwork.com/7-principles-of-persuasion/), [Pearson](https://carolspearson.com/about/the-pearson-12-archetype-system-human-development-and-evolution), [V&A: Modernism](https://www.vam.ac.uk/articles/what-was-modernism), [V&A: Postmodernism](https://www.vam.ac.uk/articles/what-is-postmodernism).
+
+**November 10 presentation revision:** Replaced the PDF-led comparison with an eight-page HTML research notebook, preserving November 9 observations and existing learner choices. Added cross-site synthesis and explicitly proposed stories/checks; these do not count as completed Plan, Build or Improve work. No new peer feedback or retailer checkout session is claimed.
 
 **Change note:** Compared three clothing sites and connected their presentation to two possible positions, two persona hypotheses and the chosen styling-focused college audience. Reused the existing Brand Studio identity and persuasion applications.
 
