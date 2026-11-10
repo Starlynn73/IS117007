@@ -9,8 +9,7 @@
     const plan = document.getElementById(save.getAttribute("aria-controls"));
     const remove = plan?.querySelector(".remove-look");
     if (!plan || !remove) return;
-    const name =
-      save.dataset.look === "streetwear" ? "Streetwear" : "Clean casual";
+    const name = save.dataset.lookName || "Look";
 
     save.addEventListener("click", () => {
       plan.hidden = false;

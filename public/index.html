@@ -79,18 +79,31 @@
           </div>
           <p>
             Start with pieces you own. Borrow a pairing, switch an accessory, or
-            take the whole look in your own direction. These ideas work across
-            genders.
+            take the whole look in your own direction. Explore six starting
+            points, with styling open to all genders.
           </p>
         </div>
+        <nav class="outfit-jumps" aria-label="Choose an outfit idea">
+          <a href="#look-streetwear">Streetwear</a
+          ><a href="#look-casual">Clean casual</a
+          ><a href="#look-smart-casual">Smart casual</a
+          ><a href="#look-sporty">Sporty casual</a
+          ><a href="#look-layered">Easy layers</a
+          ><a href="#look-weekend">Relaxed weekend</a>
+        </nav>
         <div class="outfit-grid">
-          <article class="outfit-card" aria-labelledby="streetwear-title">
+          <article
+            class="outfit-card"
+            id="look-streetwear"
+            aria-labelledby="streetwear-title"
+          >
             <img
               class="outfit-photo"
               src="assets/on-the-go-streetwear-v2.png"
               alt="AI-generated streetwear look worn by a Black man: white tee, blue jeans, silver chain and gray-and-white sneakers"
               width="1024"
               height="1536"
+              loading="lazy"
             />
             <div class="outfit-card-copy">
               <p class="eyebrow">01 / Plans with friends</p>
@@ -104,10 +117,15 @@
                 <strong>Try this:</strong> echo a sneaker color in an accessory.
                 Use what you own; nothing needs to match perfectly.
               </p>
+              <p class="outfit-swap">
+                <strong>Use what you own:</strong> Any jeans and your everyday
+                sneakers work. The idea is the pairing, not a particular brand.
+              </p>
               <button
                 class="button button-secondary save-look"
                 type="button"
                 data-look="streetwear"
+                data-look-name="Streetwear"
                 aria-expanded="false"
                 aria-controls="streetwear-plan"
               >
@@ -136,13 +154,18 @@
               </div>
             </div>
           </article>
-          <article class="outfit-card" aria-labelledby="casual-title">
+          <article
+            class="outfit-card"
+            id="look-casual"
+            aria-labelledby="casual-title"
+          >
             <img
               class="outfit-photo"
               src="assets/on-the-go-clean-casual-v1.png"
               alt="AI-generated clean casual look worn by a Black woman: white tee, black trousers, simple sneakers, silver jewelry and a dark shoulder bag"
               width="1024"
               height="1536"
+              loading="lazy"
             />
             <div class="outfit-card-copy">
               <p class="eyebrow">02 / From class to coffee</p>
@@ -156,10 +179,15 @@
                 <strong>Try this:</strong> choose one accessory to repeat a
                 color or shape. Keep the rest as simple as you like.
               </p>
+              <p class="outfit-swap">
+                <strong>Use what you own:</strong> Use dark jeans if you do not
+                have trousers. Try your usual tote instead of a shoulder bag.
+              </p>
               <button
                 class="button button-secondary save-look"
                 type="button"
                 data-look="casual"
+                data-look-name="Clean casual"
                 aria-expanded="false"
                 aria-controls="casual-plan"
               >
@@ -184,6 +212,258 @@
                   data-look="casual"
                 >
                   Remove saved clean casual look
+                </button>
+              </div>
+            </div>
+          </article>
+          <article
+            class="outfit-card"
+            id="look-smart-casual"
+            aria-labelledby="smart-casual-title"
+          >
+            <img
+              class="outfit-photo"
+              src="assets/on-the-go-smart-casual-v1.png"
+              alt="AI-generated smart casual outfit on a Black man: white tee, open charcoal blazer, relaxed dark trousers, black loafers and a watch"
+              width="1024"
+              height="1536"
+              loading="lazy"
+            />
+            <div class="outfit-card-copy">
+              <p class="eyebrow">03 / A presentation or dinner</p>
+              <h3 id="smart-casual-title">A little more put together.</h3>
+              <p>
+                Let a white tee soften an open blazer and dark trousers. Simple
+                loafers and a watch finish the look without adding much fuss.
+              </p>
+              <p class="outfit-tip">
+                <strong>Try this:</strong> leave the blazer open so the white
+                tee gives the dark layers a clear contrast.
+              </p>
+              <p class="outfit-swap">
+                <strong>Use what you own:</strong> Try an open cardigan or an
+                overshirt instead of a blazer, and clean sneakers instead of
+                loafers. Check your event’s dress expectations.
+              </p>
+              <button
+                class="button button-secondary save-look"
+                type="button"
+                data-look="smart-casual"
+                data-look-name="Smart casual"
+                aria-expanded="false"
+                aria-controls="smart-casual-plan"
+              >
+                Save smart casual for my plans <span aria-hidden="true">↗</span>
+              </button>
+              <div class="look-plan" id="smart-casual-plan" hidden>
+                <h4>Your smart casual checklist</h4>
+                <ul>
+                  <li>A white tee</li>
+                  <li>An open blazer, cardigan or overshirt</li>
+                  <li>Dark trousers or neat dark jeans</li>
+                  <li>Loafers or clean sneakers</li>
+                </ul>
+                <p>
+                  A starting point for the look you chose. Save is temporary and
+                  clears on refresh.
+                </p>
+                <a href="#product-title">Try the white tee in the demo bag →</a
+                ><button
+                  class="text-button remove-look"
+                  type="button"
+                  data-look="smart-casual"
+                >
+                  Remove saved smart casual look
+                </button>
+              </div>
+            </div>
+          </article>
+          <article
+            class="outfit-card"
+            id="look-sporty"
+            aria-labelledby="sporty-title"
+          >
+            <img
+              class="outfit-photo"
+              src="assets/on-the-go-sporty-v1.png"
+              alt="AI-generated sporty casual outfit on a Black woman: white tee, charcoal drawstring track pants, gray sneakers, canvas tote and a cap held in one hand"
+              width="1024"
+              height="1536"
+              loading="lazy"
+            />
+            <div class="outfit-card-copy">
+              <p class="eyebrow">04 / A laid-back campus day</p>
+              <h3 id="sporty-title">Easy does it.</h3>
+              <p>
+                A plain tee, loose track pants and everyday sneakers make an
+                easy off-duty combination. A tote or cap adds a useful finishing
+                detail.
+              </p>
+              <p class="outfit-tip">
+                <strong>Try this:</strong> keep the tee simple and let the
+                relaxed shape of the trousers set the mood.
+              </p>
+              <p class="outfit-swap">
+                <strong>Use what you own:</strong> Use joggers, drawstring
+                trousers or leggings you already own. Choose your everyday
+                trainers; this is styling inspiration, not a performance claim.
+              </p>
+              <button
+                class="button button-secondary save-look"
+                type="button"
+                data-look="sporty"
+                data-look-name="Sporty casual"
+                aria-expanded="false"
+                aria-controls="sporty-plan"
+              >
+                Save sporty casual for my plans
+                <span aria-hidden="true">↗</span>
+              </button>
+              <div class="look-plan" id="sporty-plan" hidden>
+                <h4>Your sporty casual checklist</h4>
+                <ul>
+                  <li>A white tee</li>
+                  <li>Track pants, joggers or leggings</li>
+                  <li>Your everyday trainers</li>
+                  <li>An optional tote or cap</li>
+                </ul>
+                <p>
+                  A starting point for the look you chose. Save is temporary and
+                  clears on refresh.
+                </p>
+                <a href="#product-title">Try the white tee in the demo bag →</a
+                ><button
+                  class="text-button remove-look"
+                  type="button"
+                  data-look="sporty"
+                >
+                  Remove saved sporty casual look
+                </button>
+              </div>
+            </div>
+          </article>
+          <article
+            class="outfit-card"
+            id="look-layered"
+            aria-labelledby="layered-title"
+          >
+            <img
+              class="outfit-photo"
+              src="assets/on-the-go-layered-v1.png"
+              alt="AI-generated layered outfit on a Black man: white tee under an open olive overshirt, straight dark jeans and tan boots"
+              width="1024"
+              height="1536"
+              loading="lazy"
+            />
+            <div class="outfit-card-copy">
+              <p class="eyebrow">05 / A cooler day out</p>
+              <h3 id="layered-title">One extra layer. New direction.</h3>
+              <p>
+                Wear an olive overshirt open over the tee, then add straight
+                jeans and boots. The white layer breaks up darker pieces and
+                keeps the outfit easy to read.
+              </p>
+              <p class="outfit-tip">
+                <strong>Try this:</strong> leave the outer shirt open and fold
+                the cuffs once for a more relaxed finish.
+              </p>
+              <p class="outfit-swap">
+                <strong>Use what you own:</strong> A denim shirt, flannel or
+                light jacket can replace the overshirt. Sneakers work if boots
+                are not your thing.
+              </p>
+              <button
+                class="button button-secondary save-look"
+                type="button"
+                data-look="layered"
+                data-look-name="Easy layers"
+                aria-expanded="false"
+                aria-controls="layered-plan"
+              >
+                Save easy layers for my plans <span aria-hidden="true">↗</span>
+              </button>
+              <div class="look-plan" id="layered-plan" hidden>
+                <h4>Your easy layers checklist</h4>
+                <ul>
+                  <li>A white tee</li>
+                  <li>An open overshirt, denim shirt or light jacket</li>
+                  <li>Straight jeans</li>
+                  <li>Boots or sneakers</li>
+                </ul>
+                <p>
+                  A starting point for the look you chose. Save is temporary and
+                  clears on refresh.
+                </p>
+                <a href="#product-title">Try the white tee in the demo bag →</a
+                ><button
+                  class="text-button remove-look"
+                  type="button"
+                  data-look="layered"
+                >
+                  Remove saved easy layers look
+                </button>
+              </div>
+            </div>
+          </article>
+          <article
+            class="outfit-card"
+            id="look-weekend"
+            aria-labelledby="weekend-title"
+          >
+            <img
+              class="outfit-photo"
+              src="assets/on-the-go-weekend-v1.png"
+              alt="AI-generated relaxed weekend outfit on a Black woman: white tee tucked into sand-colored knee-length shorts, white sneakers and an understated crossbody bag"
+              width="1024"
+              height="1536"
+              loading="lazy"
+            />
+            <div class="outfit-card-copy">
+              <p class="eyebrow">06 / A walk or weekend catch-up</p>
+              <h3 id="weekend-title">Keep the weekend simple.</h3>
+              <p>
+                Tuck the tee loosely into sand-colored shorts and keep the shoes
+                simple. A small crossbody bag gives you one less thing to carry.
+              </p>
+              <p class="outfit-tip">
+                <strong>Try this:</strong> try a loose front tuck to change the
+                shape without needing a different tee.
+              </p>
+              <p class="outfit-swap">
+                <strong>Use what you own:</strong> Use shorts you own, a skirt
+                or lightweight trousers. Any practical bag and familiar sneakers
+                can carry the idea.
+              </p>
+              <button
+                class="button button-secondary save-look"
+                type="button"
+                data-look="weekend"
+                data-look-name="Relaxed weekend"
+                aria-expanded="false"
+                aria-controls="weekend-plan"
+              >
+                Save relaxed weekend for my plans
+                <span aria-hidden="true">↗</span>
+              </button>
+              <div class="look-plan" id="weekend-plan" hidden>
+                <h4>Your relaxed weekend checklist</h4>
+                <ul>
+                  <li>A white tee</li>
+                  <li>Shorts, a skirt or lightweight trousers</li>
+                  <li>Simple sneakers</li>
+                  <li>An optional crossbody bag or tote</li>
+                </ul>
+                <p>
+                  A starting point for the look you chose. Save is temporary and
+                  clears on refresh.
+                </p>
+                <a href="#product-title">Try the white tee in the demo bag →</a
+                ><button
+                  class="text-button remove-look"
+                  type="button"
+                  data-look="weekend"
+                >
+                  Remove saved relaxed weekend look
                 </button>
               </div>
             </div>

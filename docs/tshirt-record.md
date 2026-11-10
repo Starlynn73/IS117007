@@ -85,6 +85,14 @@ Framework references: [Cialdini](https://www.influenceatwork.com/7-principles-of
 
 **Open question:** What makes the outfit guidance meaningfully more useful than the styling inspiration competitors already provide?
 
+## STYLE-002 — research presentation and styling expansion
+
+[Issue #6](https://github.com/Starlynn73/IS117007/issues/6) tracks the owner-requested revision. The research homepage now presents the short Research submission: three linked comparisons, two positions, two persona hypotheses, the existing audience choice/reason, limits, actual-feedback status and next step. Detailed competitor studies and twelve dated captures remain supporting evidence.
+
+The storefront expands from two to six outfit ideas: streetwear, clean casual, smart casual, sporty casual, easy layers and relaxed weekend. Each includes a pairing tip, an owned-piece substitution and a separate voluntary saved-look checklist. Four new images are AI-generated outfit concepts; clothing beyond the tee is not sold here. AI proposed the new combinations; their usefulness has not yet been checked with a real peer.
+
+This revision does not complete the final-store Plan, A/B Build, SQLite checkout or Improve checkpoints. No new customer research, peer result or learner explanation is claimed.
+
 ## Plan
 
 Not started for the final-store scope. Reuse earlier Brand Studio decisions without treating them as a completed final-store plan.
