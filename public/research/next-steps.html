@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A bridge into the Plan checkpoint: proposed stories, observable checks and the questions a real peer should help answer."
+    />
+    <title>Research to plan | On the Go Research</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="research.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to research</a>
+    <header class="topbar">
+      <a class="wordmark" href="index.html"
+        >On the Go <span aria-hidden="true">↗</span
+        ><span class="notebook">RESEARCH / 001</span></a
+      >
+      <nav aria-label="Project links">
+        <a href="../index.html">Concept store ↗</a
+        ><a href="https://github.com/Starlynn73/IS117007">GitHub ↗</a>
+      </nav>
+    </header>
+    <div class="layout">
+      <aside class="sidebar">
+        <p class="eyebrow">THE RESEARCH DESK</p>
+        <nav aria-label="Research notebook">
+          <a href="index.html">Overview</a
+          ><a href="landscape.html">Competitive landscape</a
+          ><a href="uniqlo.html">01 / UNIQLO</a
+          ><a href="hm.html">02 / H&amp;M</a
+          ><a href="everlane.html">03 / Everlane</a
+          ><a href="direction.html">Audience &amp; direction</a
+          ><a href="next-steps.html" aria-current="page">Research to plan</a
+          ><a href="sources.html">Sources &amp; limits</a>
+        </nav>
+        <div class="side-note">
+          <span class="status-dot" aria-hidden="true"></span> Research
+          checkpoint<br /><span
+            >Evidence captured Nov 9, 2026.<br />Notebook revised Nov 10,
+            2026.</span
+          >
+        </div>
+        <a
+          class="feedback-link"
+          href="https://github.com/Starlynn73/IS117007/issues/3"
+          >Leave research feedback ↗</a
+        >
+      </aside>
+      <main id="main">
+        <div class="page-heading">
+          <p class="eyebrow">ON THE GO / RESEARCH NOTEBOOK</p>
+          <h1>Research should change<br /><em>what we build.</em></h1>
+          <p class="dek">
+            A bridge into the Plan checkpoint: proposed stories, observable
+            checks and the questions a real peer should help answer.
+          </p>
+        </div>
+        <section class="section">
+          <p class="eyebrow">STATUS</p>
+          <h2>A proposal to review, not completed evidence.</h2>
+          <div class="callout">
+            <strong>Current boundary</strong>
+            <p>
+              Research is documented. The final-store Plan, A/B Build and
+              Improve checkpoints are not complete. The current Brand Studio
+              storefront has a temporary bag; it does not yet meet the final
+              simulated-checkout and SQLite requirements.
+            </p>
+          </div>
+        </section>
+        <section class="section">
+          <p class="eyebrow">01 / EVIDENCE TO FEATURES</p>
+          <h2>Keep every proposal connected to a finding.</h2>
+          <section
+            class="table-scroll"
+            tabindex="0"
+            aria-label="Comparison table 1"
+          >
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Finding</th>
+                  <th scope="col">Proposed story</th>
+                  <th scope="col">Essential feature</th>
+                  <th scope="col">Observable check</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Styled photos are common; useful differentiation is
+                    uncertain.
+                  </td>
+                  <td>
+                    As a student meeting friends, I want a look I can adapt
+                    using what I own.
+                  </td>
+                  <td>
+                    One short outfit recipe with an accessory/sneaker pairing
+                    and substitution.
+                  </td>
+                  <td>
+                    After viewing, a peer can name one pairing and one usable
+                    substitution without coaching.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Supporting product information accompanies the imagery.
+                  </td>
+                  <td>
+                    As a visitor, I want to know what is confirmed before
+                    choosing a size.
+                  </td>
+                  <td>
+                    Clearly labeled sizes, fit-information limits and demo
+                    product facts.
+                  </td>
+                  <td>
+                    The peer finds size guidance; missing size blocks adding and
+                    gives a helpful message.
+                  </td>
+                </tr>
+                <tr>
+                  <td>H&amp;M’s bag changes the cost picture.</td>
+                  <td>
+                    As a demo shopper, I want an understandable order total.
+                  </td>
+                  <td>
+                    Quantity controls and an itemized, clearly fictional cost
+                    summary.
+                  </td>
+                  <td>
+                    Quantity 2 produces twice the unit price, with every demo
+                    charge labeled and the total recalculated.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Optional extras and contact gates add decisions.</td>
+                  <td>
+                    As a demo shopper, I want a clear path with control over
+                    optional choices.
+                  </td>
+                  <td>
+                    Short labeled synthetic-data checkout, input checks and
+                    confirmation.
+                  </td>
+                  <td>
+                    Missing required input shows an error; valid synthetic input
+                    reaches confirmation without unexpected extras.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Final store requires actual SQLite persistence.</td>
+                  <td>
+                    As the demonstrator, I want to retrieve a saved synthetic
+                    order.
+                  </td>
+                  <td>
+                    Runnable backend, SQLite order record and documented start
+                    command.
+                  </td>
+                  <td>
+                    Place a synthetic order, inspect its reference, restart and
+                    show that the same record remains.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </section>
+        <section class="section">
+          <p class="eyebrow">02 / TWO APPROACHES TO COMPARE</p>
+          <h2>Hold the shirt and promise steady.</h2>
+          <div class="cards">
+            <article class="card">
+              <p class="eyebrow">PROPOSED A</p>
+              <h3>Outfit first</h3>
+              <p>
+                Lead with a complete look and a short recipe; place the tee’s
+                purchase controls after the help. Test whether the guidance is
+                understood before shopping.
+              </p>
+            </article>
+            <article class="card">
+              <p class="eyebrow">PROPOSED B</p>
+              <h3>Product first, help alongside</h3>
+              <p>
+                Lead with tee selection and product information; put the same
+                outfit recipe beside the product. Test whether useful styling
+                can remain discoverable without delaying the purchase task.
+              </p>
+            </article>
+          </div>
+          <p>
+            Use the same product, wording, facts and outfit content so the
+            comparison isolates organization. These are AI-drafted proposals for
+            the learner’s Plan decision; no preference or test result is
+            claimed.
+          </p>
+        </section>
+        <section class="section">
+          <p class="eyebrow">03 / A REAL PEER WALKTHROUGH</p>
+          <h2>Ask for an action.<br />Record what happens.</h2>
+          <ol class="steps">
+            <li>
+              Ask the peer to imagine getting ready to meet friends and adapt
+              one outfit using something they already own.
+            </li>
+            <li>
+              Let them explore without explaining where to click. Record what
+              they find, misunderstand or skip.
+            </li>
+            <li>
+              Ask what the offer is, who it serves, why they would trust it and
+              what they would do next.
+            </li>
+            <li>
+              Give the same task in both working versions once built; record
+              observations before asking for a preference.
+            </li>
+            <li>
+              Link a specific issue, respond, make a meaningful change and
+              repeat the task.
+            </li>
+          </ol>
+          <p class="fine">
+            This walkthrough is proposed. No peer research feedback, interview
+            or final-store retest has been recorded. A useful classroom
+            observation is not market validation.
+          </p>
+        </section>
+        <section class="section">
+          <p class="eyebrow">04 / CONTINUE THE SAME RECORD</p>
+          <h2>Small records. Clear evidence.</h2>
+          <p>
+            Continue
+            <a
+              href="https://github.com/Starlynn73/IS117007/blob/codex/tshirt-research/docs/tshirt-record.md"
+              >the existing project record</a
+            >
+            and
+            <a href="https://github.com/Starlynn73/IS117007/issues/3"
+              >RESEARCH-001 #3</a
+            >. Keep later feedback tied to its own project and stage. The
+            current research-round rule requires 3–5 constructive issues per
+            classmate, per individual project; it does not create that quota for
+            later stages or the group project.
+          </p>
+          <section
+            class="table-scroll"
+            tabindex="0"
+            aria-label="Comparison table 2"
+          >
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Section 007 checkpoint</th>
+                  <th scope="col">Due in 2026</th>
+                  <th scope="col">Evidence to add</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>T-shirt Research</td>
+                  <td>Nov 10 · 8:30 a.m. Eastern</td>
+                  <td>
+                    Research record, sources, site/repository and relevant
+                    feedback links.
+                  </td>
+                </tr>
+                <tr>
+                  <td>T-shirt Plan</td>
+                  <td>Nov 17 · 8:30 a.m. Eastern</td>
+                  <td>
+                    Chosen approaches, 3–5 stories, essential features and
+                    checks.
+                  </td>
+                </tr>
+                <tr>
+                  <td>T-shirt Build A/B</td>
+                  <td>Nov 24 · 8:30 a.m. Eastern</td>
+                  <td>
+                    Two meaningful working versions and observed comparison.
+                  </td>
+                </tr>
+                <tr>
+                  <td>T-shirt Improve</td>
+                  <td>Dec 3 · 8:30 a.m. Eastern</td>
+                  <td>Real walkthrough, meaningful change and retest.</td>
+                </tr>
+                <tr>
+                  <td>All final sites ready</td>
+                  <td>Dec 6 · 11:59 p.m. Eastern</td>
+                  <td>
+                    Same links updated; runnable SQLite demo and final
+                    explanation.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <p>
+            Confirm official submissions in Canvas.
+            <a
+              href="https://kaw393939.github.io/is117-demo-days/course/section-007.html"
+              >Section 007 instructions ↗</a
+            >
+          </p>
+        </section>
+        <nav class="pager" aria-label="Continue reading">
+          <a href="direction.html">← Audience &amp; direction</a
+          ><a href="sources.html">Sources &amp; limits →</a>
+        </nav>
+        <footer>
+          <p>On the Go / IS117007 · A classroom research notebook.</p>
+          <p>
+            Retailer claims are attributed; personas and proposed effects remain
+            hypotheses. <a href="sources.html">Evidence &amp; limits</a>
+          </p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
