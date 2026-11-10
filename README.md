@@ -1,6 +1,6 @@
 # On the Go — IS117 Brand Studio
 
-**T-shirt Research:** [Open the research website](https://starlynn73.github.io/IS117007/research/) · [short project record](docs/tshirt-record.md) · [feedback issue #3](https://github.com/Starlynn73/IS117007/issues/3). The detailed comparison is now an eight-page HTML notebook with twelve original screenshots, audience/position comparisons, sources and proposed next checks.
+**T-shirt Research:** [Open the research website](https://starlynn73.github.io/IS117007/research/) · [short project record](docs/tshirt-record.md) · [feedback issue #3](https://github.com/Starlynn73/IS117007/issues/3). Start with the concise Research summary, organized like the Campus Cotton completed example. Detailed competitor studies and twelve original screenshots remain supporting evidence. The storefront offers six outfit ideas with practical tips, substitutions and optional checklists.
 
 **Current status:** BRAND-001 is kept. The On the Go storefront and live style guide were checked, reviewed and [merged into main in PR #2](https://github.com/Starlynn73/IS117007/pull/2). The [storefront](https://starlynn73.github.io/IS117007/) and [research notebook](https://starlynn73.github.io/IS117007/research/) were published and opened successfully on November 10, 2026. The final-store checkout and SQLite work remain pending.
 

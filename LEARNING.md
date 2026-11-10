@@ -31,3 +31,9 @@ Learner proposed **On the Go** after rejecting AI names and explicitly kept it. 
 **Next step:** Optionally choose one small improvement and the visitor need it serves. Publishing remains separate. Reviewed student excerpts unchanged; merge state is an artifact fact.
 
 Post-merge AI maintenance: synchronized local main with the verified merge, added .gitattributes to preserve formatting across Windows checkouts, and reran npm run check successfully (formatting/lint, 7 server tests, 11 browser tests). Student excerpts remain unchanged.
+
+## STYLE-002 — artifact maintenance, November 10, 2026
+
+Owner requested a Research presentation aligned with the completed examples and additional styling options. AI reorganized the Research entry into a concise checkpoint summary and proposed four additional looks, with generated imagery, pairing tips, substitutions and independent checklists. Existing student excerpts above are unchanged; this paragraph records technical work, not a new student explanation or evidence of understanding.
+
+Checks: the full run passed formatting/lint, 7 server tests and 14 browser tests. A further phone-shortcut case passed with the 2 other outfit cases, bringing verified browser cases to 15. AI visually inspected the desktop gallery, mobile styling text/images and Research summary. No actual peer review or new audience validation is claimed. [Issue #6](https://github.com/Starlynn73/IS117007/issues/6), [project record](docs/tshirt-record.md), [image provenance](docs/style-002-imagery.md).

@@ -1378,7 +1378,7 @@ legend {
 
 .outfit-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2.5rem;
 }
 
@@ -1388,7 +1388,8 @@ legend {
 
 .outfit-photo {
   width: 100%;
-  height: 620px;
+  height: auto;
+  aspect-ratio: 2 / 3;
   object-fit: contain;
   background: var(--color-soft);
 }
@@ -1533,5 +1534,26 @@ legend {
 
   .guide-image-pair {
     gap: 0.75rem;
+  }
+}
+
+.outfit-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem 1.5rem;
+  margin-bottom: 2rem;
+  padding-block: 1rem;
+  border-block: 1px solid var(--color-line);
+  font-size: 0.85rem;
+}
+
+.outfit-swap {
+  margin-bottom: 1rem;
+  color: var(--color-muted);
+}
+
+@media (760px < width <= 1100px) {
+  .outfit-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

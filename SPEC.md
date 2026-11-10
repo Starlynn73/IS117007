@@ -100,3 +100,10 @@ Imagery clarification: learner wants a Black model, male or female; gender-neutr
 Learner checks: correctly identified accidental T-shirt addition as the bug caught by saving a look while expecting bag count 0. Desktop impression: model pose feels like a college student, color contrast works, simple chain adds a nice touch, and outfit feels casual/everyday. Narrow-window observation: learner reported elements appeared the same size but rearranged to accommodate the window. Keyboard observation after a concrete follow-up: learner saw a black outline around Find your outfit when reached with Tab.
 
 Post-merge maintenance: .gitattributes preserves LF text line endings across Windows checkouts. npm run check rerun after local main synchronization: formatting/lint, 7 server tests and 11 browser tests passed.
+
+## STYLE-002 — broader outfit help and concise Research entry
+
+- Scope: owner requested alignment with completed Research examples and more styling options beyond the existing two. [Issue #6](https://github.com/Starlynn73/IS117007/issues/6).
+- Preserve the On the Go identity and earlier approved choices. AI-proposed additions: smart casual, sporty casual, easy layers and relaxed weekend, each with a pairing tip, substitution and independent checklist.
+- Research homepage becomes the short checkpoint summary; existing detailed pages remain evidence. No new audience decision, customer research or peer result is inferred from this request.
+- Checks: all six save/remove names and panels, bag independence with an existing item, refresh reset, keyboard activation, responsive layout, page links and automated accessibility. Results: formatting and HTML/CSS/JS lint passed; 7 server and 14 browser tests passed in the full run. Added one further phone-shortcut test; all 3 outfit tests then passed, for 15 passing browser cases across those runs. AI inspected the three-column desktop gallery, phone layout and concise Research summary. Real peer feedback remains pending.
