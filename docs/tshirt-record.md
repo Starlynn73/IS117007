@@ -4,7 +4,7 @@
 
 **Repository:** [Starlynn73/IS117007](https://github.com/Starlynn73/IS117007)
 
-**Research website:** [Open the HTML notebook](../public/research/index.html). Public deployment is checked separately; this repository link opens source until published.
+**Research website:** [Open the published HTML notebook](https://starlynn73.github.io/IS117007/research/). Published through GitHub Pages and opened successfully on November 10, 2026; [source files](../public/research/).
 
 **Research feedback issue:** [RESEARCH-001 #3](https://github.com/Starlynn73/IS117007/issues/3). [Brand Studio issue #1](https://github.com/Starlynn73/IS117007/issues/1) records the earlier feature, not feedback on this Research submission.
 
